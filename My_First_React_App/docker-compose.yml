@@ -12,7 +12,7 @@ services:
    - .:/app 
  tests:
   image: smartlizzard/myfirstapp:latest
-  build: 
+  #build: 
   #  context: .
   #  dockerfile: Dockerfile
   volumes:
